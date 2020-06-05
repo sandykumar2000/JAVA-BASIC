@@ -1,0 +1,42 @@
+import java.util.*;
+import java.util.Scanner;
+public class Main
+{
+	public static void main(String[] args) 
+	{
+		Scanner in = new Scanner(System.in);
+		System.out.println("\n The choice number 1 stands for addition");
+		System.out.println("\n The choice number 2 stands for subtraction");
+	    System.out.println("\n Enter the choice");
+	    int c = in.nextInt();
+	    System.out.println("\n Enter the character");
+	    char n = in.next().charAt(0);
+	    System.out.println(+n);
+	    do
+	 {
+	     if(c==1)
+	       {
+	           System.out.println("\n Addition");
+	           int ans=0;
+	           System.out.println("\n Enter the numbers a and b");
+	           int a = in.nextInt();
+	           int b = in.nextInt();
+	           ans=a+b;
+	           System.out.println(ans);
+	           break;
+	       }
+	    else if(c==2)
+	       {
+	           System.out.println("\n Subtraction");
+	           int ans=0;
+	           System.out.println("\n Enter the numbers a and b");
+	           int a = in.nextInt();
+	           int b = in.nextInt();
+	           ans=a-b;
+	           System.out.println(ans);
+	           break;
+	       }
+	   System.out.println
+	 }while(n=="Y" || n=='y');
+	}
+}
