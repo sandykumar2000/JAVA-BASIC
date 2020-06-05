@@ -1,0 +1,19 @@
+public  class  ReverseNum
+{   public static  void main (String[]  args)
+    {  Scanner sc =new Scanner(System.in);
+int  n=sc.nextInt();
+int   temp=n;
+int  c=0,rem;
+while(temp!=0)
+{ rem=temp%10;
+c=c*10+rem;
+temp=temp/10;
+N=n/10;
+}if(n==c)
+       System.out.println(n+”   is a palindrome”);
+else
+       System.out.println(n+”   is not a palindrome”);
+}
+}
+
+

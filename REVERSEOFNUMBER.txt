@@ -1,0 +1,13 @@
+public  class  ReverseNum
+{   public static  void main (String[]  args)
+    {  Scanner sc =new Scanner(System.in);
+Int  n=sc.nextInt();
+Int   rem;
+Whil(n!=0)
+{ rem=n%10;
+       System.out.println(rem);
+N=n/10;
+}
+}
+
+
