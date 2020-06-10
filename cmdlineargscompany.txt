@@ -1,0 +1,27 @@
+import java.util.*;
+public class Main
+{
+	public static void main(String[] args)
+    {
+	   Scanner in = new Scanner(System.in);
+	   int l=0;
+	   int i=0;
+	   int[] a= new int[10];
+	   l=args.length;
+	   System.out.println(+l);
+	   for(i=0;i<l;i++)
+	   {
+	       if(i==0)
+	       {
+	           continue;
+	       }
+	       else if(i==1)
+	       {
+	           System.out.println(args[--i] +" " +"Technologies" +" "+ args[++i]);
+	           break;
+	       }
+	   }
+	   
+	   
+    }
+}
